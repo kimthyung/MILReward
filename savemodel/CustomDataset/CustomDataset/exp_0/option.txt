@@ -1,0 +1,20 @@
+------------ Options -------------
+batchsize: 64
+data_dir: Custom_Dataset_20_ds
+dataset: CustomDataset
+dropout_node: 0.15
+dropout_patch: 0.4
+embed: 128
+epoch_des: 10
+feats_size: 7
+gpu_index: (0,)
+lr: 0.0003
+num_classes: 1
+num_epochs: 100
+num_workers: 4
+optimizer: adamw
+save_dir: ./savemodel/CustomDataset/CustomDataset/exp_0
+seed: 42
+test_size: 0.2
+weight_decay: 0.001
+-------------- End ----------------
